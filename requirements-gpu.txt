@@ -1,0 +1,4 @@
+# Extra for NVIDIA graphics cards only. The start script installs this by itself when it
+# finds an NVIDIA card. ctranslate2 4.x loads cuBLAS for CUDA 12 from here, so you do not
+# need to install the CUDA toolkit.
+nvidia-cublas-cu12>=12.4,<13

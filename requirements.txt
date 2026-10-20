@@ -1,0 +1,11 @@
+# Everything the app needs. Works on any computer (CPU).
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+beautifulsoup4>=4.12
+lxml>=5.0
+numpy>=1.26
+faster-whisper>=1.2,<2
+ctranslate2>=4.5,<5
+rapidfuzz>=3.0
+num2words>=0.5.13
