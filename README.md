@@ -179,6 +179,9 @@ You do **not** need to install "CUDA" or "cuDNN". The app downloads the one piec
 4. When it's ready, your web browser opens the app. If it doesn't, go to **http://127.0.0.1:8765**
 5. **Keep the black window open** while you use the app. Closing it stops the app.
 
+> **Starting it from the Terminal instead?** Go into the app folder and type `.\run.bat`
+> (with the dot and backslash in front). Typing just `run.bat` gives a "not recognized" error.
+
 > **Tip:** right-click `run.bat`, choose **Show more options > Send to > Desktop (create shortcut)**.
 > Now you can start the app from your desktop.
 
@@ -308,8 +311,11 @@ Leave it on **auto** unless you have a reason.
 
 ## Something went wrong
 
-**"Python was not found" / "I can't find Python".**
-Linux: do Step 1 again. Windows: do Step 1 again, then close and reopen the Terminal.
+**"Python was not found" / "not recognized".**
+- Linux: do Step 1 again.
+- Windows: do Step 1 again. Then **sign out of Windows and sign back in** (or restart), and
+  double-click `run.bat` again. Windows only tells programs about newly installed software after that.
+- Windows, from the Terminal: type `.\run.bat`, not `run.bat`.
 
 **The start page says "ffprobe missing" or "no AAC decoder".**
 FFmpeg is missing. Do Step 1 again.
